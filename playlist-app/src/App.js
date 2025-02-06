@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import ProjectHead from './comps/presentationals/ProjectHead';
+import AppCont from './comps/containers/AppCont';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <ProjectHead />
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <hr></hr> */}
       </header>
+      <AppCont />
     </div>
   );
 }

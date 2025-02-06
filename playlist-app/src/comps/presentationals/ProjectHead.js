@@ -4,7 +4,7 @@ function ProjectHead(){
     return(
         <div>
             <h1>Make a Playlist on Apple Music!</h1>
-            <p>Enter serch criteria, add you favorite songs, and upload to your Apple Music Profile!</p>
+            <p>Enter search criteria, add your favorite songs, and upload to your Apple Music Profile!</p>
         </div>
     )
 };
